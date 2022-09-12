@@ -29,7 +29,7 @@ namespace hello
 
             var area = pi * 5;
 
-            System.Console.WriteLine("The are is: "+pi);
+            System.Console.WriteLine("The area is: "+area);
             Console.WriteLine(number);
             System.Console.WriteLine("ben");
 
