@@ -24,6 +24,12 @@ namespace hello
 
 
             var number= 22;
+
+            const float pi =  3.142f;
+
+            var area = pi * 5;
+
+            System.Console.WriteLine("The are is: "+pi);
             Console.WriteLine(number);
             System.Console.WriteLine("ben");
 
