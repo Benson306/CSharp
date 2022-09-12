@@ -1,0 +1,15 @@
+/home/ben/Desktop/learning/c#/first/bin/Debug/net6.0/first
+/home/ben/Desktop/learning/c#/first/bin/Debug/net6.0/first.deps.json
+/home/ben/Desktop/learning/c#/first/bin/Debug/net6.0/first.runtimeconfig.json
+/home/ben/Desktop/learning/c#/first/bin/Debug/net6.0/first.dll
+/home/ben/Desktop/learning/c#/first/bin/Debug/net6.0/first.pdb
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/first.csproj.AssemblyReference.cache
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/first.GeneratedMSBuildEditorConfig.editorconfig
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/first.AssemblyInfoInputs.cache
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/first.AssemblyInfo.cs
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/first.csproj.CoreCompileInputs.cache
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/first.dll
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/refint/first.dll
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/first.pdb
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/first.genruntimeconfig.cache
+/home/ben/Desktop/learning/c#/first/obj/Debug/net6.0/ref/first.dll
