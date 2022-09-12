@@ -41,10 +41,21 @@ namespace hello
             // ToInt32();
             // ToInt64();
 
-
             string s = "167";
-            int i = int.Parse(s);
-            System.Console.WriteLine(i);
+                int i = int.Parse(s);
+                System.Console.WriteLine(i);
+
+            try
+            {
+                var num = "1234";
+                byte b = Convert.ToByte(num);
+                Console.WriteLine(b);
+            }
+            catch (System.Exception)
+            {
+                Console.WriteLine("The number could not be converted to a byte.");
+            }
+            
         }
         static void Main(string[] args)
         {
