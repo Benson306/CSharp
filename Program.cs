@@ -15,14 +15,18 @@ namespace hello
         }
 
         static void newMethod(){
-            byte number=10;
+            // byte number=10;
 
             int count = 10;
             float totalPrice = 20.95f;
             char character = 'A';
             bool isLoading = true;
-            
+
+
+            var number= 22;
             Console.WriteLine(number);
+            System.Console.WriteLine("ben");
+
         }
         static void Main(string[] args)
         {
