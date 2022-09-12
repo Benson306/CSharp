@@ -34,10 +34,23 @@ namespace hello
             System.Console.WriteLine("ben");
 
         }
+
+        static void typeConversion(){
+            // ToByte();
+            // ToInt16();
+            // ToInt32();
+            // ToInt64();
+
+
+            string s = "167";
+            int i = int.Parse(s);
+            System.Console.WriteLine(i);
+        }
         static void Main(string[] args)
         {
             age(2010.11m, 2020.31m);
             newMethod();
+            typeConversion();
         }
         
     }
