@@ -83,9 +83,16 @@ namespace hello
 
             // exceptionHandling();
 
-            Book x = new Book("The river and the source","Benji",5);
+            // Book x = new Book("The river and the source","Benji",5);
 
-            Console.WriteLine(x.author);
+            // Console.WriteLine(x.author);
+
+            Student x = new Student("Ben","IT",10.20);
+            Student y = new Student("Jim","Business",3.6);
+
+            Console.WriteLine(x.HasHonors());
+            Console.WriteLine(y.HasHonors());
+
 
         }
 
