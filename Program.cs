@@ -62,6 +62,13 @@ namespace hello
             age(2010.11m, 2020.31m);
             newMethod();
             typeConversion();
+            userInput();
+        }
+
+        static void userInput(){
+            Console.Write("Enter your name: ");
+            var name = Console.ReadLine();
+            Console.WriteLine("Hi "+name+". Hope you are having a good day");
         }
         
     }
