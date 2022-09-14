@@ -77,7 +77,9 @@ namespace hello
 
             // forLoops();
 
-            Console.WriteLine(GetPow(4,4));
+            // Console.WriteLine(GetPow(4,4));
+
+            twoDarray();
         }
 
         static void userInput(){
@@ -200,6 +202,16 @@ namespace hello
             }
 
             return result;
+        }
+
+        static void twoDarray(){
+            int [,] numberGrid = {
+                {1,2},
+                {3,4},
+                {5,6}
+            };
+
+            Console.WriteLine(numberGrid[0,0]);
         }
 
         
