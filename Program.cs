@@ -227,9 +227,12 @@ namespace hello
                 int num2 = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine(num1 / num2);
-                
+
             }catch(Exception e){
                 Console.WriteLine("Error: "+ e.Message);
+            }
+            finally{
+                Console.WriteLine("******Program Finished Execution*****");
             }
         }
 
