@@ -59,19 +59,21 @@ namespace hello
         }
         static void Main(string[] args)
         {
-            age(2010.11m, 2020.31m);
-            newMethod();
-            typeConversion();
-            userInput();
-            calculator();
-            arrays();
-            int num = cube(4);
+            // age(2010.11m, 2020.31m);
+            // newMethod();
+            // typeConversion();
+            // userInput();
+            // calculator();
+            // arrays();
+            // int num = cube(4);
 
-            Console.WriteLine(num+" is the cube of 4");
+            // Console.WriteLine(num+" is the cube of 4");
 
-            Console.WriteLine("The maximum number is: "+GetMax(3,5,7));
+            // Console.WriteLine("The maximum number is: "+GetMax(3,5,7));
 
-            Console.Write(switchStatement(17));
+            // Console.Write(switchStatement(17));
+
+            whileLoops();
         }
 
         static void userInput(){
@@ -169,6 +171,15 @@ namespace hello
             }
 
             return dayName;
+        }
+
+        static void whileLoops(){
+            int result=5;
+             
+             while(result < 10){
+                 Console.WriteLine(result);
+                 result += 1;
+             }
         }
 
         
