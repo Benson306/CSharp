@@ -87,13 +87,16 @@ namespace hello
 
             // Console.WriteLine(x.author);
 
-            Student x = new Student("Ben","IT",10.20);
-            Student y = new Student("Jim","Business",3.6);
+            // Student x = new Student("Ben","IT",10.20);
+            // Student y = new Student("Jim","Business",3.6);
 
-            Console.WriteLine(x.HasHonors());
-            Console.WriteLine(y.HasHonors());
-
-
+            // Console.WriteLine(x.HasHonors());
+            // Console.WriteLine(y.HasHonors());
+            
+            Movie x = new Movie("The Getaway","Benji","Dog");
+            Movie y = new Movie("Shrek","Adam","PG"); 
+            // G, PG, PG-13, R, NR
+            Console.WriteLine(x.Rating);
         }
 
         static void userInput(){
