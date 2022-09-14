@@ -83,12 +83,9 @@ namespace hello
 
             // exceptionHandling();
 
-            Book x = new Book();
-            x.author = "Benji";
-            x.title = "The river and the source";
-            x.pages =5;
+            Book x = new Book("The river and the source","Benji",5);
 
-            Console.WriteLine(x.title);
+            Console.WriteLine(x.author);
 
         }
 
