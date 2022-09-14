@@ -63,6 +63,7 @@ namespace hello
             newMethod();
             typeConversion();
             userInput();
+            calculator();
         }
 
         static void userInput(){
@@ -72,6 +73,15 @@ namespace hello
             Console.WriteLine("Hi "+name+". Hope you are having a good day");
         }
 
+        static void calculator(){
+            Console.Write("Enter First Number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Second Number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("The sum is: "+(num1 + num2));
+        }
         
         
     }
