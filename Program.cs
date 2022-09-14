@@ -73,7 +73,9 @@ namespace hello
 
             // Console.Write(switchStatement(17));
 
-            whileLoops();
+            // whileLoops();
+
+            forLoops();
         }
 
         static void userInput(){
@@ -180,6 +182,12 @@ namespace hello
                  Console.WriteLine(result);
                  result += 1;
              }
+        }
+
+        static void forLoops(){
+            for(int i =1; i<10; i++){
+                Console.WriteLine(i);
+            }
         }
 
         
