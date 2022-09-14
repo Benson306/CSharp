@@ -93,10 +93,17 @@ namespace hello
             // Console.WriteLine(x.HasHonors());
             // Console.WriteLine(y.HasHonors());
             
-            Movie x = new Movie("The Getaway","Benji","Dog");
-            Movie y = new Movie("Shrek","Adam","PG"); 
-            // G, PG, PG-13, R, NR
-            Console.WriteLine(x.Rating);
+            // Movie x = new Movie("The Getaway","Benji","Dog");
+            // Movie y = new Movie("Shrek","Adam","PG"); 
+            // // G, PG, PG-13, R, NR
+            // Console.WriteLine(x.Rating);
+
+            Song x = new Song("Holiday","Green Day",200);
+            Song y = new Song("Kashmur","Led Zeppelin",150);
+
+            Console.WriteLine(x.getSongCount());
+            Console.WriteLine(Song.songCount);
+
         }
 
         static void userInput(){
