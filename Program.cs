@@ -68,8 +68,11 @@ namespace hello
         static void userInput(){
             Console.Write("Enter your name: ");
             var name = Console.ReadLine();
+
             Console.WriteLine("Hi "+name+". Hope you are having a good day");
         }
+
+        
         
     }
 }
