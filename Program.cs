@@ -17,10 +17,10 @@ namespace hello
         static void newMethod(){
             // byte number=10;
 
-            int count = 10;
-            float totalPrice = 20.95f;
-            char character = 'A';
-            bool isLoading = true;
+            // int count = 10;
+            // float totalPrice = 20.95f;
+            // char character = 'A';
+            // bool isLoading = true;
 
 
             var number= 22;
@@ -73,7 +73,13 @@ namespace hello
 
             // Console.Write(switchStatement(17));
 
-            whileLoops();
+            // whileLoops();
+
+            // forLoops();
+
+            // Console.WriteLine(GetPow(4,4));
+
+            twoDarray();
         }
 
         static void userInput(){
@@ -180,6 +186,32 @@ namespace hello
                  Console.WriteLine(result);
                  result += 1;
              }
+        }
+
+        static void forLoops(){
+            for(int i =1; i<10; i++){
+                Console.WriteLine(i);
+            }
+        }
+
+        static int GetPow(int baseNum, int powNum){
+            int result = 1;
+            
+            for(int i=0; i< powNum;i++){
+                result = result*baseNum;
+            }
+
+            return result;
+        }
+
+        static void twoDarray(){
+            int [,] numberGrid = {
+                {1,2},
+                {3,4},
+                {5,6}
+            };
+
+            Console.WriteLine(numberGrid[0,0]);
         }
 
         
