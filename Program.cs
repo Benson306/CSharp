@@ -91,9 +91,13 @@ namespace hello
 
             string[] friends = new string[3];
             friends[0] = "Benji";
+
+            sayHi("benji");
         }
 
         
-        
+        static void sayHi(string name){
+            Console.WriteLine("Hello "+name);
+        }
     }
 }
