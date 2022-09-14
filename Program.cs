@@ -67,7 +67,9 @@ namespace hello
             arrays();
             int num = cube(4);
 
-            Console.Write(num+" is the cube of 4");
+            Console.WriteLine(num+" is the cube of 4");
+
+            Console.WriteLine("The maximum number is: "+GetMax(3,5,7));
         }
 
         static void userInput(){
@@ -109,6 +111,29 @@ namespace hello
 
             int cube =  number * number * number;
             return cube;
+        }
+
+        static void ifStatements(){
+            bool isMale = true;
+            if(isMale){
+                Console.WriteLine("You are Male");
+            }else{
+                Console.WriteLine("You are not Male");
+            }
+        }
+
+        static int GetMax(int num1, int num2, int num3){
+            int result;
+            
+            if(num1 >= num2 && num1 >= num3){
+                result = num1;
+            }else if(num2 >= num3){
+                result = num2;
+            }else{
+                result = num3;
+            }
+
+            return result;
         }
 
         
