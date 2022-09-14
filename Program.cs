@@ -65,6 +65,9 @@ namespace hello
             userInput();
             calculator();
             arrays();
+            int num = cube(4);
+
+            Console.Write(num+" is the cube of 4");
         }
 
         static void userInput(){
@@ -99,5 +102,15 @@ namespace hello
         static void sayHi(string name){
             Console.WriteLine("Hello "+name);
         }
+
+        //return method
+
+        static int cube(int number){
+
+            int cube =  number * number * number;
+            return cube;
+        }
+
+        
     }
 }
