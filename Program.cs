@@ -79,7 +79,8 @@ namespace hello
 
             // Console.WriteLine(GetPow(4,4));
 
-            twoDarray();
+            // twoDarray();
+            exceptionHandling();
         }
 
         static void userInput(){
@@ -212,6 +213,24 @@ namespace hello
             };
 
             Console.WriteLine(numberGrid[0,0]);
+        }
+
+        static void exceptionHandling(){
+
+            
+
+            try{
+                Console.Write("Enter First Number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Enter Second Number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+                
+            }catch(Exception e){
+                Console.WriteLine("Error: "+ e.Message);
+            }
         }
 
         
