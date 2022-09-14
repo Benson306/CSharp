@@ -17,10 +17,10 @@ namespace hello
         static void newMethod(){
             // byte number=10;
 
-            int count = 10;
-            float totalPrice = 20.95f;
-            char character = 'A';
-            bool isLoading = true;
+            // int count = 10;
+            // float totalPrice = 20.95f;
+            // char character = 'A';
+            // bool isLoading = true;
 
 
             var number= 22;
@@ -75,7 +75,9 @@ namespace hello
 
             // whileLoops();
 
-            forLoops();
+            // forLoops();
+
+            Console.WriteLine(GetPow(4,4));
         }
 
         static void userInput(){
@@ -188,6 +190,16 @@ namespace hello
             for(int i =1; i<10; i++){
                 Console.WriteLine(i);
             }
+        }
+
+        static int GetPow(int baseNum, int powNum){
+            int result = 1;
+            
+            for(int i=0; i< powNum;i++){
+                result = result*baseNum;
+            }
+
+            return result;
         }
 
         
