@@ -80,7 +80,16 @@ namespace hello
             // Console.WriteLine(GetPow(4,4));
 
             // twoDarray();
-            exceptionHandling();
+
+            // exceptionHandling();
+
+            Book x = new Book();
+            x.author = "Benji";
+            x.title = "The river and the source";
+            x.pages =5;
+
+            Console.WriteLine(x.title);
+
         }
 
         static void userInput(){
@@ -235,6 +244,8 @@ namespace hello
                 Console.WriteLine("******Program Finished Execution*****");
             }
         }
+
+
 
         
     }
