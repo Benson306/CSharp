@@ -88,6 +88,10 @@ namespace hello
         static void arrays(){
             int [] luckyNumbers = {22, 10, 8, 43, 54};
             Console.WriteLine(luckyNumbers[0]);
+
+            string[] friends = new string[3];
+            friends[0] = "Benji";
+
         }
         
     }
