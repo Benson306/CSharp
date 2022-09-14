@@ -64,6 +64,7 @@ namespace hello
             typeConversion();
             userInput();
             calculator();
+            arrays();
         }
 
         static void userInput(){
@@ -82,7 +83,12 @@ namespace hello
 
             Console.WriteLine("The sum is: "+(num1 + num2));
         }
+
         
+        static void arrays(){
+            int [] luckyNumbers = {22, 10, 8, 43, 54};
+            Console.WriteLine(luckyNumbers[0]);
+        }
         
     }
 }
